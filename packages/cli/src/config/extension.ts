@@ -8,7 +8,7 @@ import { MCPServerConfig } from '@google/gemini-cli-core';
 import * as fs from 'fs';
 import * as path from 'path';
 import * as os from 'os';
-import { GEMINI_DIR } from '../../../packages/core/src/utils/paths';
+import { GEMINI_DIR } from '@google/gemini-cli-core/src/utils/paths.js';
 
 export const EXTENSIONS_DIRECTORY_NAME = path.join(GEMINI_DIR, 'extensions');
 export const EXTENSIONS_CONFIG_FILENAME = 'gemini-extension.json';
