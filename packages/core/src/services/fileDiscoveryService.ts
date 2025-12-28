@@ -8,7 +8,7 @@ import { GitIgnoreParser, GitIgnoreFilter } from '../utils/gitIgnoreParser.js';
 import { isGitRepository } from '../utils/gitUtils.js';
 import * as path from 'path';
 
-const GEMINI_IGNORE_FILE_NAME = '.geminiignore';
+const GEMINI_IGNORE_FILE_NAME = '.mycliignore';
 
 export interface FilterFilesOptions {
   respectGitIgnore?: boolean;
